@@ -6,21 +6,15 @@ I'm studying AI Automation at Rohi eSkills Learning Hub in Bahawalpur, and build
 
 ## What I work with
 
-n8n, Python, Make.com, Zapier, GoHighLevel, OpenAI, Ollama, Gmail & Google Sheets APIs, Docker.
+n8n, Python, Make.com, Zapier, GoHighLevel, OpenAI, Groq, Gmail & Google Sheets APIs, SQLite, Docker.
 
 ## Projects
 
-### Smart Email Triage
+### Lead Generation + Outreach System
 
-An n8n workflow that reads incoming emails, classifies them with a local AI model (category, priority, summary), and drafts replies. A human always reviews — nothing is ever auto-sent. Duplicates are skipped automatically, and everything is logged to Google Sheets.
+A Python, SQLite and n8n system that finds small-business leads, scores them from 0 to 100 (Hot, Warm, Cold), writes a personal outreach email for each one, and follows up on a polite schedule until they reply. The sequence is three emails (day 0, day 3, day 7) and never a fourth. Messages can be rewritten by a free cloud AI (Groq), and if the AI fails the plain templates are used, so the pipeline never breaks. A human reviews every draft — nothing is ever auto-sent.
 
-https://github.com/muhammad-asadullah-ibrahim/smart-email-triage
-
-### Local AI FAQ Chatbot
-
-A small Python chatbot that answers FAQs from a JSON knowledge base. It matches questions by keyword first, and falls back to a local Ollama model when there's no match. No API key, fully offline — and it says "I don't know" instead of making things up.
-
-https://github.com/muhammad-asadullah-ibrahim/local-ai-faq-chatbot
+https://github.com/muhammad-asadullah-ibrahim/lead-generation-outreach
 
 ## Currently learning
 
